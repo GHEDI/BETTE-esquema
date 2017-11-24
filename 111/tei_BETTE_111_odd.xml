@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en"><teiHeader><fileDesc><titleStmt><title>TEI for BETTE (v. 1.11)</title><author>José Calvo Tello</author></titleStmt><publicationStmt><publisher>TEI Consortium</publisher><availability status="free"><p>TEI  material can be licensed differently depending on the use you intend to 
+	     make of it. Hence it is made available under both the CC+BY and BSD-2 
+	     licences.  The CC+BY licence is generally appropriate for usages which 
+	     treat TEI content as data or documentation. The BSD-2 licence is 
+	     generally appropriate for usage of TEI content in a software 
+	     environment. For further information or clarification, please contact 
+	     the TEI Consortium (info@tei-c.org).</p></availability></publicationStmt><notesStmt><note type="ns">http://www.example.org/ns/nonTEI</note></notesStmt><sourceDesc><p>Written from scratch.</p></sourceDesc></fileDesc></teiHeader><text><body><head>TEI Complete</head><p> of the TEI (P5) modules. This is a very useful&#13;
+       starting place for manually creating your own customizations&#13;
+       — it is much easier to delete the modules you do not&#13;
+       want than to add the modules you do. Furthermore this&#13;
+       customization often proves helpful for testing TEI&#13;
+       software.This TEI customization describes a schema that includes&#13;
+       all of the TEI (P5) modules. This is a very useful&#13;
+       starting place for manually creating your own customizations&#13;
+       — it is much easier to delete the modules you do not&#13;
+       want than to add the modules you do. Furthermore this&#13;
+       customization often proves helpful for testing TEI&#13;
+       software.all of the TEI (P5) modules. This is a very useful&#13;
+       starting place for manually creating your own customizations&#13;
+       — it is much easier to delete the modules you do not&#13;
+       want than to add the modules you do. Furthermore this&#13;
+       customization often proves helpful for testing TEI&#13;
+       software.This TEI customization describes a schema that includes&#13;
+       all of the TEI (P5) modules. This is a very useful&#13;
+       starting place for manually creating your own customizations&#13;
+       — it is much easier to delete the modules you do not&#13;
+       want than to add the modules you do. Furthermore this&#13;
+       customization often proves helpful for testing TEI&#13;
+       software.</p><p>However, this particular TEI customization is <emph>not
+      recommended</emph> for actual use for encoding documents. It
+      produces schemas and reference documentation that will be much
+      larger, and include many more elements, than almost anyone could
+      conceivably ever need. Tempting though it may be simply to have
+      absolutely everything, and <q>just ignore</q> elements not
+      required, experience has shown that their presence makes the
+      documentation harder to read and use, and makes a schema that is
+      far more lax than desired.</p><schemaSpec ident="tei_BETTE_111" start="TEI teiCorpus" prefix="" docLang="en"><moduleRef key="tei"/><!-- required --><moduleRef key="core" except="abbr add addrLine address analytic biblScope biblStruct binaryObject cb choice cit citedRange corr del distinct divGen email emph expan foreign gap gb gloss graphic headItem headLabel imprint index item label lb list listBibl measureGrp media meeting mentioned milestone monogr note num orig pb postBox postCode ptr q reg relatedItem resp respStmt said series sic soCalled street teiCorpus term textLang time unclear"/><!-- required --><moduleRef key="corpus" except="activity channel constitution derivation domain factuality interaction locale preparedness setting settingDesc"/><moduleRef key="drama" except="camera caption castGroup epilogue move performance prologue set sound spGrp tech view"/><moduleRef key="header" except="appInfo application authority biblFull cRefPattern calendar calendarDesc catDesc catRef category classCode classDecl correction correspAction correspContext correspDesc creation distributor editorialDecl encodingDesc extent funder geoDecl handNote hyphenation interpretation keywords listChange listPrefixDef namespace normalization notesStmt prefixDef projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation seriesStmt sponsor stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass xenoData"/><!-- required --><moduleRef key="linking" except="alt altGrp anchor join joinGrp link linkGrp timeline when"/><moduleRef key="namesdates" except="addName affiliation birth bloc climate country death district education faith floruit forename genName geo geogFeat geogName langKnowledge langKnown listNym listOrg listPlace listRelation location nameLink nationality nym occupation offset persona place placeName population region relation residence roleName settlement socecStatus state surname terrain"/><moduleRef key="textstructure" except="argument byline closer dateline div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText group imprimatur opener postscript salute signed titlePage titlePart trailer"/><!-- required --></schemaSpec></body></text></TEI>
